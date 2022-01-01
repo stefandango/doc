@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stefandango.Doc", "Stefandango.Doc\Stefandango.Doc.csproj", "{926D5216-E42C-43B5-97AC-1AF29337C2A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stefandango.Doc.ExampleProject", "Stefandango.Doc.ExampleProject\Stefandango.Doc.ExampleProject.csproj", "{D1B16BCD-9749-4CE6-A1DC-590FAEFE29BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stefandango.Doc.ExampleProject", "Stefandango.Doc.ExampleProject\Stefandango.Doc.ExampleProject.csproj", "{D1B16BCD-9749-4CE6-A1DC-590FAEFE29BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7411E5D7-6D59-4004-B62F-97AD218D704A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
