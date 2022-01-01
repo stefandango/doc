@@ -5,7 +5,7 @@ My tweaked docfx template.
 - Uses a custom logo
 - Generates a PDF using wkhtmltopdf
 
-This project consist of the docfx project and a very basic webservice project used to test how code documentaion is generated.
+This project consist of the docfx project and a very basic webservice project used to test how code documention is generated.
 
 ## Installation
 
