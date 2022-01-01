@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        function substitutePdfVariables() {
+
+            function getParameterByName(name) {
+                var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+                return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+            }
+
+            function substitute(name) {
+                var value = getParameterByName(name);
+                var elements = document.getElementsByClassName(name);
+
+                for (var i = 0; elements && i < elements.length; i++) {
+                    elements[i].textContent = value;
+                }
+            }
+
+            ['frompage', 'topage', 'page', 'webpage', 'section', 'subsection', 'subsubsection']
+                .forEach(function (param) {
+                    substitute(param);
+                });
+
+            var currPageNum = document.getElementsByClassName("page")[0].innerHTML;
+            if (currPageNum == '1' || currPageNum == 1)
+            {
+                document.getElementsByClassName('custom-footer')[0].style.display = "none";
+            }
+
+        }
+    </script>
+    <style>
+        .custom-footer {
+            color: dimgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body onload="substitutePdfVariables()">
+    <p class="custom-footer">Side <span class="page"></span> af <span class="topage"></span></p>
+</body>
+</html>

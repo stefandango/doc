@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.388557mm"
+   height="10.8839mm"
+   viewBox="0 0 87.388557 10.8839"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo_white.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="545.83002"
+     inkscape:cy="300.23866"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs2">
+    <rect
+       x="18.001461"
+       y="50.146927"
+       width="405.03287"
+       height="74.577484"
+       id="rect31989" />
+    <rect
+       x="16.715643"
+       y="24.430553"
+       width="423.03433"
+       height="133.72514"
+       id="rect26637" />
+    <rect
+       x="33.431286"
+       y="54.004383"
+       width="605.62061"
+       height="191.58698"
+       id="rect2277" />
+  </defs>
+  <g
+     inkscape:label="Lag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.2645548,-17.552433)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2275"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:D-DIN;-inkscape-font-specification:D-DIN;white-space:pre;shape-inside:url(#rect2277);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="33.431641"
+         y="99.891906"
+         id="tspan92659"><tspan
+           style="fill:#ffffff"
+           id="tspan92657">Stefandango.dev</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text26635"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect26637);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text31987"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect31989);fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       d=""
+       id="path51788"
+       style="stroke-width:1.28582"
+       transform="matrix(0.26458333,0,0,0.26458333,9.2645548,17.552433)" />
+  </g>
+</svg>

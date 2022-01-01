@@ -1,0 +1,142 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "**.csproj",
+            "Stefandango.Doc.ExampleProject/*.csproj"
+          ],
+          //"src": "C:\\Users\\Stefa\\source\\repos\\Stefandango.Doc\\Stefandango.Doc"
+          "src": ".."
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false,
+      "filter": "filterConfig.yml"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      //"default"
+      "templates/statictoc"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false,
+    "globalMetadata": {
+      "_appName": "Stefandango.Doc",
+      "_appFooter": "<span>Stefandango Copyright</span>",
+      "_appLogoPath": "/images/logo_white.svg"
+    }
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api-vb/**.yml"
+        ],
+        "exclude": [
+          "**/toc.yml",
+          "**/toc.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          //"documentation/**.md",
+          //"documentation/**/toc.yml",
+          "toc.yml",
+          "*.md",
+          "pdf/*"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**",
+          "**/toc.yml",
+          "**/toc.md"
+        ]
+      },
+      {
+        "files": "pdf/toc.yml"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**",
+          "_site_pdf/**",
+          "_site"
+        ]
+      }
+    ],
+    "template": [
+      "templates/pdf.default"
+    ],
+    "wkhtmltopdf": {
+      //"additionalArguments": "--enable-local-file-access --footer-center [page] --footer-font-name Raleway"
+      "additionalArguments": "--enable-local-file-access --header-html pdf/header/header.html --footer-html pdf/footer/footer.html"
+    },
+    "dest": "_site/_site_pdf"
+  }
+}

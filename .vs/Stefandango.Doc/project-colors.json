@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "926d5216-e42c-43b5-97ac-1af29337c2a3": {
+      "ProjectGuid": "926d5216-e42c-43b5-97ac-1af29337c2a3",
+      "DisplayName": "Stefandango.Doc",
+      "ColorIndex": 0
+    },
+    "1f606dc7-eaf0-4f45-bf57-b310c2b7109a": {
+      "ProjectGuid": "1f606dc7-eaf0-4f45-bf57-b310c2b7109a",
+      "DisplayName": "Stefandango.Doc.TestProject",
+      "ColorIndex": 1
+    },
+    "d1b16bcd-9749-4ce6-a1dc-590faefe29be": {
+      "ProjectGuid": "d1b16bcd-9749-4ce6-a1dc-590faefe29be",
+      "DisplayName": "Stefandango.Doc.ExampleProject",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
