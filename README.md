@@ -50,3 +50,5 @@ Build the project, and if succesful run the serve command
 ```
 docfx.exe --serve
 ```
+
+The static web-site is located in the _site folder, in this folder the generated PDF is placed in the _site_pdf folder. 
